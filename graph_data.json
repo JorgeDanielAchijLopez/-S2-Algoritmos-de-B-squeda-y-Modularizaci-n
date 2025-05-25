@@ -1,0 +1,41 @@
+{
+    "coordenadas": {
+        "Guatemala": [14.6349, -90.5069],
+        "Sacatepequez": [14.5551, -90.7350],
+        "Escuintla": [14.3050, -90.7850],
+        "Chimaltenango": [14.6614, -90.8195],
+        "Santa Rosa": [14.3833, -90.2833]
+    },
+    "grafo": {
+        "Guatemala": {
+            "Sacatepequez": 26.15,
+            "Escuintla": 47.24,
+            "Chimaltenango": 33.9,
+            "Santa Rosa": 45.86
+        },
+        "Sacatepequez": {
+            "Guatemala": 26.15,
+            "Escuintla": 28.18,
+            "Chimaltenango": 14.92,
+            "Santa Rosa": 57.21
+        },
+        "Escuintla": {
+            "Guatemala": 47.24,
+            "Sacatepequez": 28.18,
+            "Chimaltenango": 39.62,
+            "Santa Rosa": 53.98
+        },
+        "Chimaltenango": {
+            "Guatemala": 33.9,
+            "Sacatepequez": 14.92,
+            "Escuintla": 39.62,
+            "Santa Rosa": 71.4
+        },
+        "Santa Rosa": {
+            "Guatemala": 45.86,
+            "Sacatepequez": 57.21,
+            "Escuintla": 53.98,
+            "Chimaltenango": 71.4
+        }
+    }
+}
